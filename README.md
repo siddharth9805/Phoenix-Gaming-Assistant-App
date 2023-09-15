@@ -1,5 +1,5 @@
- <p align="center">
- <a href="https://blog-fullstack-app-kappa.vercel.app/"> <img height=200px src="./images/logo.png" alt="App Logo"> </a>
+<p align="center">
+ <a href="https://blog-fullstack-app-kappa.vercel.app/"> <img height=200px src="./images/logo.png" alt="App Logo"></a>
 </p>
 
 <h1 align="center">Gaming Assistant App for the Physically Disabled</h1>
@@ -20,44 +20,63 @@ Our aim is to help specially-abled players, get an equally immersive experience 
 
 -----------------------------------------
 
-### Features
-
-* User-friendly interface
-* 6 Categories for easy navigation
-* User authentication for secure posting
-* Editing and deleting blogs by authorized users
-
------------------------------------------
-
 ### Implementation
-* Built with React for the front-end, utilizing Node.js for the server-side logic, and integrated with a MySQL database for data management.
-* Created a dynamic Home page that aggregates and displays blog posts from all available categories.
-* Implemented a user-friendly navigation system by incorporating individual category links in the navigation bar. Clicking on a category reveals related blog posts.
-* Designed a Blog Writing page enabling users to compose and publish blogs within any of the six specified categories.
-* Implemented a feature allowing users to click on individual blog posts for reading. Additionally, authorized users possess the capability to edit existing blogs for continuous refinement.
+* Built with Android and Porcupine Engine
+
+* `System Architecture`
+
+<p align="center">
+ <img height=400px src="./images/System-Architecture.PNG" alt="Home page img">
+</p>
+
+<br>
+
+* `App Home Screen`
+
+Before the app can begin executing touch events, a
+pressure point needs to be placed anywhere on the
+display
+
+<p align="center">
+ <img height=400px src="./images/Home-Screen.PNG" alt="Home Screen img">
+</p>
+
+<br>
+
+* `Game Screen`
+
+This is the game where we put our app to the test
+
+<p align="center">
+ <img height=400px src="./images/Game-Screen.PNG" alt="Game Screen img">
+</p>
+
+<br>
+
+* `Before Touch Event and Trigger Word Detected`
+
+Left image shows the screen where touch event is not yet detected and the right image shows that the trigger word said by the user is detected 
+
+<p align="center">
+ <img height=400px src="./images/Before-Touch-Event.PNG" alt="Before Touch event img">
+ <span>&nbsp; &nbsp;</span>
+ <img height=400px src="./images/Trigger-Word-Detected.PNG" alt="Trigger img">
+</p>
+
+<br>
+
+* `Touch Event Executed`
+
+After the trigger word is successfully detected a touch event takes place and the character in the game makes a move
+
+<p align="center">
+ <img height=400px src="./images/Touch-Event-Executed.PNG" alt="Touch-Event-Executed img">
+</p>
 
 -----------------------------------------
 
-### Screenshots
-* `Home Page`
-  
+### Results
+
 <p align="center">
- <img height=400px src="./client/Screenshots/Home_page1.PNG" alt="Home page img">
-</p>
-
-<br>
-
-* `Single Post Page`
-  
-<p align="center">
- <img height=400px src="./client/Screenshots/Single_post1.PNG" alt="Single Post Page Img">
- <img height=400px src="./client/Screenshots/Single_post2.PNG" alt="Single Post Page Img">
-</p>
-
-<br>
-
-* `Write Post Page`
-  
-<p align="center">
- <img height=400px src="./client/Screenshots/Write_page.PNG" alt="Write Page Img">
+ <img height=400px src="./images/Results-Table.PNG" alt="Touch-Event-Executed img">
 </p>
