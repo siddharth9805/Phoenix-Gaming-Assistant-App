@@ -1,5 +1,5 @@
  <p align="center">
- <a href="https://blog-fullstack-app-kappa.vercel.app/"> <img height=200px src="./client/src/img/logo.png" alt="Blog Website Logo"> </a>
+ <a href="https://blog-fullstack-app-kappa.vercel.app/"> <img height=200px src="./images/logo.png" alt="App Logo"> </a>
 </p>
 
 <h1 align="center">Gaming Assistant App for the Physically Disabled</h1>
