@@ -13,20 +13,13 @@
 
 -----------------------------------------
 ### Inspiration
-Our project aims at allowing users to play android games using only their speech. We will be using speech-to-text technology to achieve this task. First, the user will place a ‘pressure point’ that is, a point on the screen whose coordinates are saved by the app. When the player speaks
-the word ‘porcupine’, a touch event will be executed at the pressure points location thus, making the game deal as if someone is playing with their fingers.
-Our aim is to help specially-abled players, get an equally immersive experience as that of normal players. Also, we plan to release this app on the Google Playstore in the coming future to allow anyone with an android device to play.
+The inspiration behind our project is to bridge the gap between gaming accessibility and specially-abled individuals. We believe that everyone should have the opportunity to enjoy the immersive experience of gaming, regardless of their physical abilities. By harnessing the power of speech-to-text technology, we're enabling users to control Android games using only their voice. Through our simple app, we're providing a seamless way for players to interact with the game, making it feel like a natural extension of themselves. Our ultimate goal is to make this technology widely accessible by releasing it on the Google Playstore, ensuring that anyone with an Android device can enjoy the thrill of gaming without limitations.
 
 -----------------------------------------
 
 
 ### Implementation
 * Built with Android and Porcupine Engine
-
-
-
-
-### Results
 
 * `System Architecture`
 
@@ -35,6 +28,28 @@ Our aim is to help specially-abled players, get an equally immersive experience 
 </p>
 
 <br>
+
+The three main aspects of the project are as follows:
+
+* `Setting up Pressure Point` - The pressure point is a
+coordinate which is mapped to a label ‘porcupine’. When
+the label is said by the player, a touch event shall be
+executed at the spot of the coordinate
+
+* `Porcupine Framework` - This is a Speech-To-Text
+framework for android developed by the company
+PicoVoice. The framework constantly listens to the voice
+input from the mobile device’s microphone. These voice
+samples from the user are analyzed and using speech to
+text recognition, and it is determined if the user said the
+word ‘Porcupine’ or not.
+
+* `Touch Event` - Once the user says the word
+porcupine, a touch-event is executed at the location given
+by the coordinates on the screen thus allowing the user to
+play the game using only their voice.
+
+### Results
 
 * `App Home Screen`
 
