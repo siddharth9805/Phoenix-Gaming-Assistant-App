@@ -12,21 +12,26 @@
 </div>
 
 -----------------------------------------
-### Overview
+### Inspiration
 Our project aims at allowing users to play android games using only their speech. We will be using speech-to-text technology to achieve this task. First, the user will place a ‘pressure point’ that is, a point on the screen whose coordinates are saved by the app. When the player speaks
 the word ‘porcupine’, a touch event will be executed at the pressure points location thus, making the game deal as if someone is playing with their fingers.
 Our aim is to help specially-abled players, get an equally immersive experience as that of normal players. Also, we plan to release this app on the Google Playstore in the coming future to allow anyone with an android device to play.
 
-
 -----------------------------------------
+
 
 ### Implementation
 * Built with Android and Porcupine Engine
 
+
+
+
+### Results
+
 * `System Architecture`
 
 <p align="center">
- <img height=400px src="./images/System-Architecture.PNG" alt="Home page img">
+ <img height=250px src="./images/System-Architecture.PNG" alt="Home page img">
 </p>
 
 <br>
@@ -75,8 +80,14 @@ After the trigger word is successfully detected a touch event takes place and th
 
 -----------------------------------------
 
-### Results
+### Testing
 
 <p align="center">
- <img height=400px src="./images/Results-Table.PNG" alt="Touch-Event-Executed img">
+ <img height=250px src="./images/Results-Table.PNG" alt="Touch-Event-Executed img">
 </p>
+
+-------------------------------------------
+
+### Dissemination
+
+* Our paper based on this project was published in International Research Journal of Engineering and Technology (IRJET). View the paper [here](https://www.irjet.net/archives/V7/i8/IRJET-V7I8590.pdf)
